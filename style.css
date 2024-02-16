@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  position: relative;
+  bottom: 350px;
+}
+
+span {
+  position: relative;
+  bottom: 240px;
+}
+
+.dashboard {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: rgb(8, 8, 129);
+}
+
+header p {
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+header :placeholder-shown {
+  padding-left: 60px;
+  font-size: 14px;
+  border-radius: 50px;
+  height: 35px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 280px;
+  background-color: rgb(204, 213, 221);
+}
+
+#bars {
+  font-size: 17px;
+  position: absolute;
+  left: 100px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+#user {
+  font-size: 25px;
+}
+
+#glass {
+  margin-left: 220px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#tabela {
+  display: none;
+  position: absolute;
+  top: 750px;
+  left: 500px;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+tr,
+th,
+td {
+  border: solid 2px;
+  padding-left: 5px;
+}
+
+th {
+  background-color: rgba(95, 95, 224, 0.664);
+}
+
+iframe {
+  margin-left: 300px;
+  position: absolute;
+  top: 100px;
+}
+
+#itens {
+  height: 300px;
+  width: 280px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 70px;
+}
+
+#itens :hover {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
